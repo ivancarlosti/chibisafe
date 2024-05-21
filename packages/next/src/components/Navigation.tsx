@@ -32,31 +32,6 @@ export function Navigation({
 				>
 					Dashboard
 				</Link>
-				<a
-					href="/docs"
-					rel="noopener noreferrer"
-					className="flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm text-foreground/60"
-				>
-					Docs
-				</a>
-				<Link
-					href="/guides"
-					className={cn(
-						'flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm',
-						path.startsWith('/guides') ? 'text-foreground' : 'text-foreground/60'
-					)}
-				>
-					Guides
-				</Link>
-				<Link
-					href="/faq"
-					className={cn(
-						'flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm',
-						path === '/faq' ? 'text-foreground' : 'text-foreground/60'
-					)}
-				>
-					FAQ
-				</Link>
 			</nav>
 			<NavigationDrawer logo={logo} className="md:hidden flex" />
 		</div>
