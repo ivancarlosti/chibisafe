@@ -47,24 +47,6 @@ const BaseDrawer = ({ path, onClick }: PropsWithChildren<{ onClick(): void; read
 						>
 							Dashboard
 						</Link>
-						<a
-							href="/docs"
-							rel="noopener noreferrer"
-							target="_blank"
-							className={cn(buttonVariants({ variant: 'link' }), 'text-lg font-medium')}
-						>
-							Docs
-						</a>
-						<Link
-							href="/faq"
-							className={cn(
-								buttonVariants({ variant: 'link' }),
-								'text-lg font-medium',
-								path === '/faq' ? 'underline' : ''
-							)}
-						>
-							FAQ
-						</Link>
 					</nav>
 				</div>
 			</DrawerContent>
