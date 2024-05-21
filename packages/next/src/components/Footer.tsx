@@ -13,8 +13,8 @@ export function SiteFooter({ className = '' }: { readonly className?: string }) 
             Ivan Carlos Consultoria
             </a>  {' '}
             be liable to you for any loss or damage of any kind incurred as a result of using the website. Visit  {' '}
-            <a href="https://pad.vg/privacidade" target="_blank" className="font-medium underline underline-offset-4">
-            pad.vg/privacidade
+            <a href="https://pad.vg/privacy" target="_blank" className="font-medium underline underline-offset-4">
+            pad.vg/privacy
             </a>  {' '}
             to review our privacy policy. Recreated by {' '}
 			<a href="https://pad.vg/ivancarlos" target="_blank" className="font-medium underline underline-offset-4">
@@ -41,8 +41,8 @@ export function SiteFooter({ className = '' }: { readonly className?: string }) 
             Ivan Carlos Consultoria
             </a>  {' '}
             será responsable ante usted por cualquier pérdida o daño de cualquier tipo incurrido como resultado del uso del sitio. Visite  {' '}
-            <a href="https://pad.vg/privacidade" target="_blank" className="font-medium underline underline-offset-4">
-            pad.vg/privacidade
+            <a href="https://pad.vg/privacidad" target="_blank" className="font-medium underline underline-offset-4">
+            pad.vg/privacidad
             </a>  {' '}
             para consultar nuestra política de privacidad. Recreado por {' '}
 			<a href="https://pad.vg/ivancarlos" target="_blank" className="font-medium underline underline-offset-4">
