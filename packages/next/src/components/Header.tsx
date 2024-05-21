@@ -24,41 +24,6 @@ export const Header = async () => {
 				<Navigation logo={<ChibisafeLogo className="w-6 h-6" />} serviceName={data?.serviceName} />
 				<UploadProgress />
 				<nav className="flex items-center gap-1">
-					<a href="https://discord.gg/5g6vgwn" target="_blank" rel="noopener noreferrer">
-						<div
-							className={buttonVariants({
-								size: 'icon',
-								variant: 'ghost'
-							})}
-						>
-							<DiscordLogo className="h-6 w-6" />
-							<span className="sr-only">Discord</span>
-						</div>
-					</a>
-
-					<a href="https://github.com/chibisafe/chibisafe" target="_blank" rel="noopener noreferrer">
-						<div
-							className={buttonVariants({
-								size: 'icon',
-								variant: 'ghost'
-							})}
-						>
-							<GitHubLogo className="h-6 w-6" />
-							<span className="sr-only">GitHub</span>
-						</div>
-					</a>
-
-					<a href="https://patreon.com/pitu" target="_blank" rel="noopener noreferrer">
-						<div
-							className={buttonVariants({
-								size: 'icon',
-								variant: 'ghost'
-							})}
-						>
-							<PatreonLogo className="h-6 w-6" />
-							<span className="sr-only">Patreon</span>
-						</div>
-					</a>
 					<div className="hidden md:inline-flex ml-4">
 						<NavigationUser />
 					</div>
